@@ -1,4 +1,5 @@
-//This module is in charge of generating "random" new piece. This will be achieved by cycling through a 50MHz clock
+//This module is in charge of generating "random" new piece. This will be achieved by cycling through a 50MHz clock and choosing random
+//number between 0-3
 module newpiece(input clk, input rst, output[2:0] piece);
 
 logic[2:0] number;
