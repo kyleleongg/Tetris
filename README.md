@@ -6,7 +6,7 @@ Game includes line clearing, rotations, fast-dropping, and other features includ
 ### Demo
 [![Watch the video](https://img.youtube.com/vi/U0KNt0yqEvo/0.jpg)](https://youtube.com/shorts/U0KNt0yqEvo?si=VbXQbLx3mzL5n5Wa)
 
-How to Run/Build on Your Own:
+### How to Run/Build on Your Own:
 Download repo and create new project in Quartus Prime. Include all .sv files that DO NOT begin with "tb_" (those are the testbench files which are not required) with tetris.sv as the top-level module.
 In Assignments -> Import Assignments -> Upload the DE1_SoC.qsf file (pin planner).
 Compile the design, and when it's finished click on the Tools drop down -> Programmer -> Select your board and upload to your DE1 Soc. 
